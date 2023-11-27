@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloques</title>
+    <link rel="Stylesheet" href="../CSS/style1.css">
+</head>
+<body>
+<header>
+  <h1>Bloques</h1>
+</header>
+<nav class="nav">
+  <ul>
+      <li> <a href="Menu.html" >HOME</a></li>
+
+      
+      <li><a href="Etiquetas_básicas.html" >BLOQUES</a>
+          <ul>
+              <li><a href="#um" >BLOQUES</a></li>
+              <li><a href="#dois" >Ejemplo</a></li>
+              <li><a href="#tres" >EL ELEMENTO &lt;SPAN&gt;</a></li>
+              <li><a href="#quatro" >ELEMENTOS</a></li>
+
+          </ul>
+      </li>
+
+      <li><a href="Menu.html" >HTML</a>
+        <ul>
+            <li><a href="Etiquetas_básicas.html" >Etiquetas-básicas</a></li>
+            <li><a href="formato-de-texto.html" >Formato-de-texto</a></li>
+            <li><a href="Estilos.html" >estilos</a></li>
+            <li><a href="Enlaces.html" >enlaces</a></li>
+            <li><a href="imágenes.html" >imágenes</a></li>
+            <li><a href="Listas.html" >listas</a></li>
+            <li><a href="tablas.html" >tablas</a></li>
+            <li><a href="bloques.html" >bloques</a></li>
+            <li><a href="Etiquetas-semánticas.html" >etiquetas-semanticas</a></li>
+
+        </ul>
+    </li>
+
+  </ul>
+</nav>
+
+<main class="main">
+
+  <section class="zero">
+    <article class="artigo1">
+   <h1 id="um">BLOQUES</h1>
+   <p>&nbsp;&nbsp;&nbsp;Los bloques en HTML son elementos que sólo deben aparecer dentro del elemento &lt;body&gt; y ocupan todo el espacio de su contenedor, creando así un “bloque”. Los navegadores reconocen ese elemento a nivel bloque y suelen mostrar con un salto de línea antes y después del elemento.</p>
+  </article>
+  </section> 
+   
+<section class="one">
+  <article class="artigo1">
+<h3 id="dois">Así sería un elemento bloque: </h3>
+
+<p class="pizarra0">
+  Este sería un elemento de bloque usando la etiqueta <b>&lt;p&gt;</b> (de párrafo).Pondremos un estilo en el bloque para que puedas visualizarlo.
+</p>
+
+<div class="img">
+  <img src="../imagenes/otroejemplo2.png" alt="Explicación p">
+</div>
+
+  
+<p>La etiqueta &lt;p&gt; como vimos antes es un elemento que define un párrafo en un documento HTML.</p>
+
+<h3>Otro ejemplo: </h3>
+
+<p>
+<div class="pizarra1">
+  Este sería un elemento de bloque usando la etiqueta de <b>&lt;div&gt;</b>.Pondremos un estilo en el bloque para que puedas visualizarlo.
+</div>
+</p>
+
+<div class="img">
+  <img src="../imagenes/otroejemplo3.png" alt="Explicación div">
+</div>
+
+</article>
+</section>
+
+<section class="two">
+  <article class="artigo1">
+<p>
+  &nbsp;&nbsp;&nbsp;La etiqueta <b>&lt;div&gt;</b> define una división o una sección en un documento HTML. También es utilizado como contenedor para otros elementos. El <b>&lt;div&gt;</b> no tiene atributos obligatorios, pero style y class son id comunes, también es necesario saber que cuando lo utilizamos con CSS el elemento tiene la función de disenar bloques de contenido. Como mostraremos a continuación:
+</p>
+
+<p>
+
+&lt;div style="background-color:black;color:white;padding:20px;"&gt; <br>
+&lt;h2&gt;London &lt;/h2&gt; <br>
+  &lt;p&gt;London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants. <br> &lt;/p&gt; <br>
+  &lt;/div&gt;
+
+</p>
+<br>
+</article>
+</section>
+
+<section class="three">
+  <article class="artigo1">
+<h2 id="tres">EL ELEMENTO &lt;SPAN&gt;</h2>
+<p>
+&nbsp;&nbsp;&nbsp;Es un contenedor en línea. Sirve para aplicar estilo al texto o agrupar elementos en línea. Semejante al elemento <b>&lt;div&gt;</b> el <b>&lt;span&gt;</b> no tiene atributos obligatorios, pero style y class son id comunes, otra característica del elemento es que cuando se usa junto con CSS, el <b>&lt;span&gt;</b> se puede usar para diseñar partes del texto:
+</p>
+
+
+<div class="pizarra2">
+<p>  &lt;p&gt; <br> Are you, are you comin' to the tree? <br>
+  Where they strung up a man, they say, who <span style="color: rgb(82, 82, 82); font-weight: bold; ">&lt;span style="color: rgb(82, 82, 82); font-weight: bold; text-decoration: line-through;"&gt;game hunger&lt;/span&gt;</span>  three
+  Strange things did happen here,<br> no stranger would it be
+  If <span style="color: rgb(85, 85, 85); font-weight: bold;">&lt;span style="color: rgb(85, 85, 85); font-weight: bold; text-decoration: underline"&gt;</span>we met at midnight&lt;/span&gt; in the hanging tree <br> &lt;/p&gt; 
+</p>
+</div>
+
+<p class="space">La salida se vería así:</p>
+
+<div class="pizarra2">
+<p>
+  Are you, are you comin' to the tree? <br>
+Where they strung up a man, they say, who <span style="color: rgb(82, 82, 82); font-weight: bold; text-decoration: line-through;">game hunger</span>  three
+Strange things did happen here,<br> no stranger would it be
+If <span style="color: rgb(85, 85, 85); font-weight: bold; text-decoration: underline">we met at midnight</span> in the hanging tree
+</p>
+</div>
+
+<br>
+<br>
+</article>
+</section>
+
+<section class="four">
+  <article class="artigo1">
+<h2 id="quatro">ELEMENTOS</h2>
+<p >A continuación, tendremos algunos ejemplos de los principales elementos del bloque HTML.</p>
+<p><b>&lt;address&gt;</b>
+Información de contacto.</p>
+
+<p><b>&lt;article&gt;</b>
+Contenido de Articulo.</p>
+
+<p><b>&lt;aside&gt;</b>
+Contenido adicional.</p>
+
+<p><b>&lt;audio&gt;</b>
+Reproductor de audio</p>
+
+<p><b>&lt;blockquote&gt;</b>
+Bloque de "cita".</p>
+
+<p><b>&lt;canvas&gt;</b>
+Dibujo canvas.</p>
+
+<p><b>&lt;fieldset&gt;</b>
+Etiqueta de conjunto de campos.</p>
+
+<p><b>&lt;figcaption&gt;</b>
+Leyenda de figura.</p>
+
+<p><b>&lt;figure&gt;</b>
+Grupos contenido multimedia con una leyenda (ver &lt;figcaption&gt;).</p>
+
+<p><b>&lt;footer&gt;</b>
+Sección o pie de página.</p>
+
+<p><b>&lt;form&gt;</b>
+Formulario de entrada.</p>
+
+<p><b>&lt;nav&gt;</b>
+Contiene enlaces de navegación.</p>
+
+<p><b>&lt;section&gt;</b>
+Sección de una página web.</p>
+
+<p><b>&lt;table&gt;</b>
+Tabla.</p>
+
+<p><b>&lt;tfoot&gt;</b> (en-US)
+Pie de tabla.</p>
+
+<p><b>&lt;video&gt;</b>
+Reproductor de vídeo.</p>
+</article>
+</section>
+
+</main>
+<footer class="nav">
+  <ul>
+    <li><a href="Formulario-ejemplo.html" >CONTACTO</a></li>
+  </ul>
+</footer>
+
+</body>
+</html>

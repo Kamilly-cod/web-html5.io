@@ -1,0 +1,51 @@
+fieldset{
+    width: 500px ;
+    padding: 20px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 0px;
+}
+.botones {
+    padding: 10px;
+}
+.one {
+ background-color: lightpink;
+ border: 1px solid teal;
+}
+
+.opinion{
+    padding-top: 10px;
+    padding-left: 10px;
+    padding: 17px;
+    border: 0px;
+    background-color:lightpink;
+    border: 1px solid teal;
+}
+.varios{
+    padding-top: 10px;
+    border: 0px;
+    padding-left: 10px;
+    padding: 17px;
+    background-color: lightpink;
+    border: 1px solid teal;
+}
+/*
+input {
+    padding: 15px;
+}*/
+
+.prra{
+    border: 1px;
+}
+header{
+    background-color: palevioletred;
+    width: 300px;
+    padding-left: 170px;
+    border: 2px solid;
+    padding-right: 150px;
+    text-align: center;
+    margin: auto
+    ;
+}

@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>\
+    <link rel="Stylesheet" href="../CSS/style1.css">
+</head>
+<body>
+  <header> <h1>Listas</h1> </header>
+    <nav class="nav">
+        <ul>
+            <li> <a href="#" >HOME</a></li>
+            
+            <li><a href="#" >HTML</a>
+                <ul>
+                    <li><a href="Etiquetas_básicas.html" target="_blank" >ETIQUETAS BÁSICAS</a></li>
+                    <li><a href="Enlaces.html" target="_blank" >ENLACES</a></li>
+                    <li><a href="#" target="_blank" >FORMATO DE TEXTO</a></li>
+                    <li><a href="Estilos.html" target="_blank" >ESTILOS</a></li>
+                    <li><a href="Listas.html" target="_blank" >LISTAS</a></li>
+                    <li><a href="#" target="_blank" >IMÁGENES</a></li>
+                    <li><a href="#" target="_blank" >TABLAS</a></li>
+                </ul>
+            </li>
+    
+            <li><a href="#" >CONTACTO</a>
+                <ul>
+                    <li><a href="#" >JOGOS4</a></li>
+                    <li><a href="#" >PELICULAS4</a></li>
+                    <li><a href="#" >ANIMALES4</a></li>
+                    <li><a href="#" >SERIES4</a></li>
+                </ul>
+                <li><a href="Menu.html" >HTML</a>
+                  <ul>
+                      <li><a href="Etiquetas_básicas.html" >Etiquetas-básicas</a></li>
+                      <li><a href="formato-de-texto.html" >Formato-de-texto</a></li>
+                      <li><a href="Estilos.html" >estilos</a></li>
+                      <li><a href="Enlaces.html" >enlaces</a></li>
+                      <li><a href="imágenes.html" >imágenes</a></li>
+                      <li><a href="Listas.html" >listas</a></li>
+                      <li><a href="tablas.html" >tablas</a></li>
+                      <li><a href="bloques.html" >bloques</a></li>
+                      <li><a href="Etiquetas-semánticas.html" >etiquetas-semanticas</a></li>
+          
+                  </ul>
+              </li>
+            </li>
+        </ul>
+    </nav>
+
+<main>
+  <section class="zero">
+    <article class="artigo1">
+   <h1>LISTAS EM HTML</h1> 
+<p>Las listas en html nos permite crear conjuntos de elementos en forma de lista dentro de una página. Tenemos dos tipos de listas, ordenadas y desordenadas. Te explicaremos las dos a seguir.</p>
+</article>
+</section>
+
+<section class="one">
+  <article class="artigo1">
+<h2>LISTAS ORDENADAS: </h2>
+<p>Las listas ordenadas puedan comenzar con el número 1 y continuar por el 2,3,4, etc. También puede empezar por letras como A, B, C, D, etc.
+Las listas ordenadas en HTML se representan mediante el elemento OL("Ordered List").
+<p>&lt;ol&gt; ... &lt;/ol&gt;</p>
+</p>
+<p>Cada uno de los elementos de la lista ordenada se representará mediante el elemento &lt;li&gt;.</p>
+
+<p class="pizarra">
+&lt;ol&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Ejercicio01 &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt; Ejercicio02 &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt; Ejercicio03 &lt;/li&gt; <br>
+&lt;/ol&gt;
+</p>
+
+
+
+<p>Ese sería el resultado:</p>
+
+<ol class="lista1">
+  <li>Ejercicio01 </li>
+  <li> Ejercicio02 </li>
+  <li> Ejercicio03 </li>
+</ol>
+
+</article>
+</section>
+
+
+<section class="two">
+  <article class="artigo1">
+<h2>EMPIECE POR EL NUMERO QUE QUEREIS:</h2>
+<p>Puedes empezar la lista con el numero que elijas, para eso solo necesita utilizar start. </p>
+<p>&lt;ol start="numero"&gt; ... &lt;/ol&gt;</p>
+<p>De esto modo, se quieres empezar por el número 3, tiene que escribir el siguiente código.</p>
+<p class="pizarra">
+&lt;ol start="3"&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt; Ejercicio01 &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt; Ejercicio02 &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt; Ejercicio03 &lt;/li&gt; <br>
+&lt;/ol&gt;
+</p>
+<p>Quedaría de este modo:</p>
+<ol start="3" class="lista1">
+  <li> Ejercicio01 </li>
+  <li> Ejercicio02 </li>
+  <li> Ejercicio03 </li>
+</ol>
+</article>
+</section>
+
+<section class="three">
+  <article class="artigo1">
+<h3>UTILIZANDO EL TYPE</h3>
+<p>Utilizamos el type para elegimos el tipo de lista ordenada que queremos, entre los tipos de listas que podemos utilizar tenemos:</p>
+<p>1 - Listas decimales</p>
+<p>a - Listas alfabéticas en minúsculas</p>
+<p>A - Listas alfabéticas en mayúsculas</p>
+<p>i - Listas de números romanos en minúsculas</p>
+<p>I - Listas de números romanos en mayúsculas</p>
+</article>
+</section>
+
+<section class="four">
+  <article class="artigo1">
+<h3>UTILIZANDO EL TYPE CON LETRAS</h3>
+<p>Si queremos que nuestra lista aparezca ordenada mediante letras en mayúscula escribimos lo siguiente:</p>
+<p class="pizarra">
+&lt;ol type="A"&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;nabelle &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;eatriz&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;arolina&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;ona Luiza&lt;/li&gt; <br>
+&lt;/ol&gt;
+</p>
+<p>La salida se vería de esta manera:</p>
+
+<ol type="A" class="lista1">
+  <li>nabelle </li>
+  <li>eatriz</li>
+  <li>arolina</li>
+  <li>ona Luiza</li>
+</ol>
+</article>
+</section>
+
+<section class="five">
+  <article class="artigo1">
+<h3>UTILIZANDO EL TYPE CON NÚMEROS ROMANOS </h3>
+<p>Si deseamos que nuestra lista aparezca ordenada mediante números romanos, utilizaremos el valor “I” para una lista ordenada con números romanos.</p>
+<p class="pizarra">
+&lt;ol type="I"&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Ejercicio01&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Ejercicio02&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Ejercicio03&lt;/li&gt; <br>
+&lt;/ol&gt;
+</p>
+
+<p>Así se vería la salida:</p>
+<ol type="I" class="lista1">
+  <li>Ejercicio01</li>
+  <li>Ejercicio02</li>
+  <li>Ejercicio03</li>
+</ol>
+</article>
+</section>
+
+<section class="six">
+  <article class="artigo1">
+
+<h2>LISTAS DESORDENADAS:</h2>
+<p>
+  Para las listas desordenadas es un poco distinto y utilizamos a etiqueta &lt;ul&gt; ("unordered list"). 
+  <br>
+  Ellas son necesarias caso necesitamos mostrar elementos listados sin ningún tipo de ordenen simplemente precedidos por una viñeta que puede ser un punto, un cuadrado, etc. Veremos a seguir.
+  Para representar los elementos de la lista desordenada utilizamos el mismo elemento que con las listas ordenadas, es decir, el elemento li.
+</p>
+<p class="pizarra">
+&lt;ul&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Ejercicio01 &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Ejercicio02 &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Ejercicio03 &lt;/li&gt; <br>
+&lt;/ul&gt;
+</p>
+<ul class="lista1">
+  <li>Ejercicio01 </li>
+  <li>Ejercicio02 </li>
+  <li>Ejercicio03 </li>
+</ul>
+<br>
+
+<h3>UTILIZANDO EL TYPE </h3>
+<p>
+  En el caso de las listas desordenadas la etiqueta &lt;type&gt; sería utilizada para poner estilos , como por ejemplo:
+</p>
+<p class="pizarra">
+&lt;style type=”text/css”&gt; <br>
+ul { <br>
+&nbsp;&nbsp;&nbsp;  list-style-type: circle; <br>
+} <br>
+&lt;/style&gt;
+</p>
+</article>
+</section>
+
+<section class="seven">
+  <article class="artigo1">
+
+<h2>LISTAS DE DESCRIPCIÓN HTML</h2>
+<p>
+  La Description List es utilizada para el caso de que quieras definir una lista para describir algo, por ejemplo. Primero tendríamos un término de descripción que seria un &lt;dl&gt; en seguida tendríamos la descripción que sería la etiqueta &lt;dt&gt;.
+  Veamos con el código:
+</p>
+<p class="pizarra">
+&lt;dl&gt; <br>
+&nbsp;&nbsp;  &lt;dt&gt;Jennie&lt;/dt&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;dd&gt;Miembro de Blackpink, main rapper y sub vocal&lt;/dd&gt; <br> 
+&nbsp;&nbsp;  &lt;dt&gt;Lisa&lt;/dt&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;dd&gt;Miembro de Blackpink, main dancer y rapper&lt;/dd&gt; <br>
+&nbsp;&nbsp;  &lt;dt&gt;Rosé&lt;/dt&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;dd&gt;Miembro de Blackpink, main vocal y sub dancer&lt;/dd&gt; <br>
+&nbsp;&nbsp;  &lt;dt&gt;Jisoo&lt;/dt&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;dd&gt;Miembro de Blackpink, visual y sub vocal&lt;/dd&gt; <br>
+&lt;/dl&gt;
+</p>
+
+<p>Así se vería la salida:</p>
+
+<dl class="lista1">
+  <dt>Jennie</dt>
+      <dd>Miembro de Blackpink, main rapper y sub vocal</dd>
+  <dt>Lisa</dt>
+      <dd>Miembro de Blackpink, main dancer y rapper</dd>
+  <dt>Rosé</dt>
+      <dd>Miembro de Blackpink, main vocal y sub dancer</dd>
+  <dt>Jisoo</dt>
+      <dd>Miembro de Blackpink, visual y sub vocal</dd>
+</dl>
+<br>
+</article>
+</section>
+
+
+<section class="eight">
+  <article class="artigo1">
+
+
+<h2>LISTAS ANIDADAS</h2>
+<p>
+  Las listas anidadas serian una lista dentro de la otra, siendo ella ordenada o desordenada como aprendemos antes. Un aviso, en estas listas los desenvolvedores deben estar muy atentos con la etiqueta del código.
+</p>
+<p>
+  Te enseñaremos dos ejemplos:
+</p>
+<h3>EJEMPLO 1</h3>
+
+<p class="pizarra">
+&lt;ul&gt; <br>
+&nbsp;&nbsp;  &lt;li&gt;Elemento 1&lt;/li&gt; <br>
+&nbsp;&nbsp;  &lt;li&gt;Elemento 2&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;  &lt;li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &lt;ol&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;      &lt;li&gt;Elemento 2.1&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;     &lt;li&gt;Elemento 2.2&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;     &lt;li&gt;Elemento 2.N&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;    &lt;/ol&gt; <br>
+&nbsp;&nbsp;&nbsp;  &lt;/li&gt; <br>
+&nbsp;&nbsp;  &lt;li&gt;Elemento 3&lt;/li&gt; <br>
+&nbsp;&nbsp;  &lt;li&gt;Elemento N&lt;/li&gt; <br>
+&lt;/ul&gt; <br>
+</p>
+
+<h3>LA SALIDA DEL CÓDIGO DEL EJEMPLO 1.</h3>
+
+
+<ul class="lista2">
+  <li>Elemento 1</li>
+  <li>Elemento 2</li>
+   <li class="nt">
+      <ol class="pfvr">
+        <li>Elemento 2.1</li>
+         <li>Elemento 2.2</li>
+         <li>Elemento 2.N</li>
+      </ol>
+   </li>
+  <li>Elemento 3</li>
+  <li>Elemento N</li>
+</ul>
+<br><br>
+
+<h3>EJEMPLO 2</h3>
+
+<p class="pizarra">
+&lt;ul&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Carnívoro <br>
+&nbsp;&nbsp;	&lt;ul&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  		&lt;li&gt;León&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  		&lt;li&gt;Buitre&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  		&lt;li&gt;Hiena&lt;/li&gt; <br>
+&nbsp;&nbsp;  	&lt;/ul&gt;  <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Herbívoro <br>
+&nbsp;&nbsp;  	&lt;ul&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&lt;li&gt;Cabra&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&lt;li&gt;Vaca&lt;/li&gt; <br>
+&nbsp;&nbsp;  	&lt;/ul&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;li&gt;Omnívoro <br>
+&nbsp;&nbsp;  	&lt;ul&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  		&lt;li&gt;Oso&lt;/li&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;	&lt;li&gt;Urraca&lt;/li&gt; <br>
+&nbsp;&nbsp;  	&lt;/ul&gt; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  &lt;/li&gt;<br>
+&lt;/ul&gt; <br>
+</p>
+
+<h3>LA SALIDA DEL CÓDIGO DEL EJEMPLO 2.</h3>
+
+<ul class="lista2">
+  <li>Carnívoro
+<ul class="pfvr1">
+   <li>León</li>
+   <li>Buitre</li>
+   <li>Hiena</li>
+</ul>
+ </li>
+  <li>Herbívoro
+<ul class="pfvr1">
+   <li>Cabra</li>
+   <li>Vaca</li>
+</ul>
+  </li>
+  <li>Omnívoro
+<ul class="pfvr1">
+   <li>Oso</li>
+  <li>Urraca</li>
+</ul>
+</li>
+</ul>
+</article>
+</section>
+
+</main>
+
+<footer class="nav">
+  <ul>
+    <li><a href="Formulario-ejemplo.html" >CONTACTO</a></li>
+  </ul>
+</footer>
+
+</body>
+</html>

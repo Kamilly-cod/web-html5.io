@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Kanit:ital,wght@1,300&family=Smooch+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk&display=swap');
+* {
+
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+body{
+    background-color: #a0a0a0;
+    margin: 0;
+    padding: 0;
+
+}
+/******************************************************************************/
+/*Fontes, LETRAS*/
+h1 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: x-large;
+}
+h2 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: large;
+}
+h3 {
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: large;
+}
+p {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: justify;
+    
+}
+
+/*****************************************************************************/
+/*Enlace*/
+a:link {
+    color: black;
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:visited {
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-decoration: underline;
+}
+a:hover {
+    color: rgb(131, 131, 131);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*******************************************************************************/
+/*bloques*/
+
+.vangogh {
+    padding-left: 500px;
+    
+}
+
+.pizarra0 {
+    background-color: #a0a0a0 ;
+    text-align: center;
+    color: #F2EFDF;
+    font-weight: bold;
+}
+
+.pizarra1 {
+    background-color: #a0a0a0 ;
+    text-align: center;
+    color: #F2EFDF;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+
+}
+.pizarra2 {
+    background-color: #a0a0a0 ;
+    margin: 0 auto;
+    color: #F2EFDF;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    width: 600px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 10px 10px 5px #8f8f8f ;
+
+}
+.space {
+    text-align: center;
+}
+
+.pizarra {
+    font-weight: bold;
+    color: #838383;
+    width: 650px;
+    margin: 0 auto;
+    background-color: rgb(41, 41, 41);
+    box-shadow: 10px 10px 5px #8f8f8f ;
+    padding: 10px;
+
+}
+.pizarra:hover {
+    filter:invert(1);
+    transition: all 0.6s ease;
+
+}
+.Oscar1 {
+
+    background-color: #a0a0a0 ;
+    color: #F2EFDF;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    box-shadow: 10px 10px 5px #8f8f8f ;
+    padding: 10px;
+    border-radius: 10px;
+
+
+}
+
+strong {
+    color: #474747;
+
+}
+
+.strong {
+    color: #474747;
+    font-weight: bold;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: justify;
+}
+.strong:hover {
+    filter: invert(1);
+    transition: all 0.6s ease;
+    cursor: pointer;
+}
+    
+.colores {
+        width: 600px;
+        margin: 0 auto;
+        padding: 5px;
+        border-radius: 10px;
+        filter: grayscale(100%);
+
+        cursor: pointer;
+}
+
+.colores:hover {
+    filter: grayscale(0%);
+}
+.colores1 {
+        width: 600px;
+        margin: 0 auto;
+        padding: 5px;
+        border-radius: 10px;
+        filter: grayscale(100%);
+        cursor: pointer;
+
+}
+
+.colores1:hover {
+    filter: grayscale(0%);
+}
+/*****************************************************************************/
+/*Tablas*/
+table {
+    border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    text-align: justify;
+
+
+  }
+td:hover {
+    filter: invert(1);
+    font-weight: bold;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+td:hover {
+    filter: invert(1);
+    font-weight: bold;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+th:hover {
+    filter: invert(1);
+    font-weight: bold;
+    transition: all 0.1s ease;
+    cursor: pointer;
+}
+
+td,th {
+    border-radius: 5px;
+    text-align: center;
+}
+
+td {
+    background-color:rgb(172, 172, 172);
+    border-collapse: collapse;
+    padding: 20px;
+}
+.unique {
+    font-weight: bold;
+}
+th{
+    color: #ffffff;
+    background-color: rgb(56, 56, 56);
+    border-collapse: collapse;
+    padding: 20px;
+}
+
+/*****************************************************************************/
+/*Listas*/
+.lista1  {
+    
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.lista2 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.nt {
+    list-style: none;
+}
+
+.pfvr {
+    
+    padding-left: 80px ;
+}
+.pfvr1 {
+    
+    padding-left: 25px ;
+}
+
+/****************************************************************************/
+/*Layout*/
+
+/*header, nav, main, section, footer {
+    background-color: indianred;
+    display: flex;
+    margin: 3px;
+}*/
+header {
+background-color: #a0a0a0;
+text-align: center;
+
+}
+nav {
+    background-color: black;
+    flex-direction: row;
+    font-family: 'Exo 2', sans-serif;
+    font:bold
+
+}
+img {
+    position: relative;
+    text-align: center;
+    box-shadow: 10px 10px 5px #8f8f8f ;
+
+  /*  filter: drop-shadow(10px 5px 5px #575757);*/
+}
+.img {
+    text-align: center;
+    filter: grayscale(1);
+
+
+}
+.img1 {
+
+    filter: grayscale(1);
+    transition: all 0.8s ease;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+
+}
+.img2 {
+    text-align: left;
+    filter: grayscale(1);
+    transition: all 0.8s ease;
+
+}
+img:hover {
+    filter:invert(1);
+    transition: all 0.6s ease;
+
+}
+
+main {
+background-color: #a0a0a0;
+padding: 8px;
+
+}
+
+section {
+ padding: 10px;
+ background-color: #a0a0a0;
+
+}
+
+article {
+   background-color: #F2EFDF;
+   padding: 20px;
+   box-shadow: 5px 5px 5px #808080 ;
+
+}
+footer {
+    padding: 25px;
+ background-color: black;
+
+
+}
+/*
+.zero {
+ background-color: rgb(255, 123, 0);
+
+}
+.one {
+ background-color: chartreuse;
+
+}
+
+.two {
+ background-color: brown;
+
+
+}
+
+.three {
+ background-color: darksalmon;
+
+
+}
+*/
+
+/*************************************************************************/
+/*Codigo do menu*/
+.menu {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+
+    background-image: url("../imagenes/preciosa.jpg") ;
+    filter: grayscale(100%);
+    background-position:unset;
+    
+}
+
+.nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    text-align: center;
+
+}
+.nav ul li{
+    display: inline;
+    position: relative;
+    
+}
+.nav ul li a{
+    color: #a0a0a0;
+    padding: 20px;
+    margin: 0;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+
+}
+.nav ul li a:hover {
+    background-color: #a0a0a0 ;
+    color: black; 
+    font-weight: bold;
+}
+/* Parte da lista anidada*/
+
+.nav ul ul {
+    display: none;
+    left: 0;
+    position: absolute;
+    width: 150px;
+
+   
+}
+.nav ul li:hover ul {
+    display: block;
+
+}
+
+
+.nav ul ul li a {
+    display: block;
+
+}

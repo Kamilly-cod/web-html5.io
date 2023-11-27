@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilos</title>
+    <link rel="Stylesheet" href="../CSS/style1.css">
+</head>
+<body>
+    <header> <h1>Estilos</h1> </header>
+    <nav class="nav">
+        <ul>
+            <li> <a href="Menu.html" >HOME</a></li>
+            
+            <li><a href="Etiquetas_básicas.html" >ESTILOS</a>
+                <ul>
+                    <li><a href="#um" >ESTILOS HTML_ CSS</a></li>
+                    <li><a href="#dois" >¿QUE ES CSS?</a></li>
+                    <li><a href="#tres" >¿Cómo utilizar el CSS?</a></li>
+                    <li><a href="#quatro" >COLORES, FUENTES Y TAMAÑOS CSS</a></li>
+                    <li><a href="#cinco" >COLOR</a></li>
+                    <li><a href="#seis" >BACKGROUND-COLOR</a></li>
+                    <li><a href="#sete" >BORDER:</a></li>
+
+                </ul>
+            </li>
+            <li><a href="Menu.html" >HTML</a>
+                <ul>
+                    <li><a href="Etiquetas_básicas.html" >Etiquetas-básicas</a></li>
+                    <li><a href="formato-de-texto.html" >Formato-de-texto</a></li>
+                    <li><a href="Estilos.html" >estilos</a></li>
+                    <li><a href="Enlaces.html" >enlaces</a></li>
+                    <li><a href="imágenes.html" >imágenes</a></li>
+                    <li><a href="Listas.html" >listas</a></li>
+                    <li><a href="tablas.html" >tablas</a></li>
+                    <li><a href="bloques.html" >bloques</a></li>
+                    <li><a href="Etiquetas-semánticas.html" >etiquetas-semanticas</a></li>
+        
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+<main>
+    <section class="zero">
+        <article class="artigo1">
+   <h1 id="um">ESTILOS HTML_ CSS</h1>
+<p>Para quien, si preguntaba cómo hacer con que un texto se quede de un color determinado, o de un formato distinto esa página te irá explicar el por qué.
+Para eso primero tenéis que saber que es CSS.</p>
+</article>
+</section>
+
+<section class="one">
+    <article class="artigo1">
+<h2 id="dois">¿QUE ES CSS?</h2>
+<p>Como HTML, CSS (Cascading Style Sheets) u Hojas de estilo en cascada en español, no es realmente un lenguaje de programación, tampoco es un lenguaje de marcado. Nada más es que una hoja de estilo, que te permite crear estilos de manera selectiva a elementos en documentos HTML.</p>
+ </article>
+</section>
+
+<section class="two">
+ <article class="artigo1">
+<h2 id="tres">¿Cómo utilizar el CSS?</h2>
+<p>Tenemos 3 maneras para utilizar el CSS en documentos HTML:</p>
+
+<p> <b>*INLINE (En línea)-</b> Utilizando el style atributo dentro de los elementos HTML, para cuando quieres utilizar el estilo en un solo elemento HTML.
+</p>
+<div class="pizarra">
+    <p>&lt;h3 style="color:pink;"&gt;TÍTULO PINK&lt;/h1&gt;</p>
+
+    <p>&lt;p style="color:red;"&gt;cambia toda la color del párrafo.&lt;/p&gt;</p>
+
+</div>
+
+<p> <b>*INTERNO-</b> Utilizando el &lt;style&gt; elemento em la sección &lt;head&gt;, en el siguiente ejemplo utilizaremos las mismas etiquetas que en el ejemplo anterior, pero de una manera distinta de la estilizar. 
+</p>
+<div class="img">
+<img src="../imagenes/ejemplo02.png" alt="ejemplo de la actividad">
+</div>
+
+<p> <b>*EXTERNO-</b> Utilizando un &lt;link&gt; elemento para vincular a un archivo del CSS externo. Como explicamos en la el apartado anterior. Siendo esa la manera más común.
+</p>
+<div class="img">
+<img src="../imagenes/ejemplo03.png" alt="ejemplo de la actividad">
+</div>
+<p>Esa segunda foto sería dentro de la pagina CSS, en el archivo style.css</p>
+<div class="img">
+<img src="../imagenes/ejemplo04.png" alt="ejemplo de la actividad">
+</div>
+</article>
+</section>
+
+<section class="three">
+    <article class="artigo1">
+    <h2 id="quatro">COLORES, FUENTES Y TAMAÑOS CSS</h2>
+<p><b>BACKGROUND-COLOR:</b> Para colorear todo el <strong>fundo</strong> de un párrafo o titulo.</p>
+<p><b>FONT-FAMILY:</b> Para cambiar la <strong>forma</strong>  de las letras.</p>
+<p><b>FONT-SIZE:</b> Para cambiar el tamaño de las letras.</p>
+<p><b>PADDING:</b> Relleno (recheio ao redor de algo) que se crea alrededor del contenido de un elemento dentro de los bordes definidos;</p>
+<p><b>PADDING LEFT, PADDING RIGHT:</b> Relleno en las anchuras,</p>
+<p><b>BORDER:</b> Define un borde alrededor de un elemento HTML.</p>
+<p><b>BORDER+PADDING:</b> Relleno (espacio) entre el texto y el borde.</p>
+<p><b>BORDER+MARGIN:</b> Define una margen fuera del borde. es como un marco de un cuadro.</p>
+    </article>
+</section>
+
+<section class="four">
+    <article class="artigo1">
+<h2>EJEMPLOS:</h2>
+<h2 id="cinco">COLOR</h2>
+<h5 class="colores" style="color:#F7135E;"><b>;Hello World</b></h5>
+<br>
+<p class="colores" style="color:#0DAAB1;"><b>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</b></p>
+<br>
+<p class="colores" style="color:#F22E2E;"><b>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</b></p>
+</article>
+</section>
+
+<section class="five">
+    <article class="artigo1">
+<h2 id="seis">BACKGROUND-COLOR </h2>
+<h1 class="colores" style="background-color:#F26BAA;">Primer color</h1>
+<br>
+<h1 class="colores" style="background-color:#1438A6;">Segundo color</h1>
+<br>
+<h1 class="colores" style="background-color:#74BF04;">Tercer color</h1>
+<br>
+<h1 class="colores" style="background-color:#F2BC1B;">Cuarto color</h1>
+<br>
+<h1 class="colores" style="background-color:#F22E2E;">Quinto color</h1>
+<br>
+<h1 class="colores" style="background-color:#1D6890;">Sexto color</h1>
+<br>
+<h1 class="colores" style="background-color:#0DAAB1;">Séptimo color</h1>
+<br>
+<h1 class="colores" style="background-color:#F7135E;">Octavo color</h1>
+<br>
+
+</article>
+</section>
+
+<section class="six">
+    <article class="artigo1">
+<h2 id="sete">BORDER:</h2>
+<h1 class="colores1" style="border: 10px solid #74BF04;">Primer borde</h1>
+<br>
+<h1 class="colores1" style="border: 10px solid #F2BC1B;">Segundo borde</h1>
+<br>
+<h1 class="colores1" style="border: 10px solid #1438A6;">Tercer borde</h1>
+
+</article>
+</section>
+
+</main>
+<footer class="nav">
+    <ul>
+      <li><a href="Formulario-ejemplo.html" >CONTACTO</a></li>
+    </ul>
+  </footer>
+
+</body>
+</html>
